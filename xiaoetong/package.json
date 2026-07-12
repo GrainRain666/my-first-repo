@@ -1,0 +1,18 @@
+{
+  "name": "xiaoetong",
+  "version": "1.0.0",
+  "description": "小鹅通课程内容提取 → faster-whisper GPU 转写 → 逐字稿",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js",
+    "browser": "node browser.js",
+    "transcribe": "python.exe transcribe.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

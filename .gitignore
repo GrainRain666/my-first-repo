@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Browser profile
+browser_profile/
+
+# Output files (large generated files)
+xiaoetong/output/*.mp4
+xiaoetong/output/*.wav
+xiaoetong/output/*_urls.json
+xiaoetong/output/*_debug.json
+xiaoetong/output/api_*.json
+
+# But keep clean text and transcript files
+!xiaoetong/output/*_clean.txt
+!xiaoetong/output/*-逐字稿.md
+!xiaoetong/output/*.srt
+!xiaoetong/output/*.txt
+
+# Login state
+login_state.json
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
